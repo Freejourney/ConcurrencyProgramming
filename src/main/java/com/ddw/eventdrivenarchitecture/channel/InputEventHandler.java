@@ -1,6 +1,6 @@
 package com.ddw.eventdrivenarchitecture.channel;
 
-import com.ddw.eventdrivenarchitecture.EventDispatcher;
+import com.ddw.eventdrivenarchitecture.dispatcher.EventDispatcher;
 import com.ddw.eventdrivenarchitecture.message.InputEvent;
 import com.ddw.eventdrivenarchitecture.message.ResultEvent;
 

@@ -1,5 +1,6 @@
-package com.ddw.eventdrivenarchitecture;
+package com.ddw.eventdrivenarchitecture.dispatcher;
 
+import com.ddw.eventdrivenarchitecture.MessageMatcherException;
 import com.ddw.eventdrivenarchitecture.channel.Channel;
 import com.ddw.eventdrivenarchitecture.message.Message;
 

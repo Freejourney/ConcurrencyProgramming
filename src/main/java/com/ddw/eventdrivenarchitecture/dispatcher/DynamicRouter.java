@@ -1,4 +1,4 @@
-package com.ddw.eventdrivenarchitecture;
+package com.ddw.eventdrivenarchitecture.dispatcher;
 
 import com.ddw.eventdrivenarchitecture.channel.Channel;
 import com.ddw.eventdrivenarchitecture.message.Message;
@@ -6,6 +6,8 @@ import com.ddw.eventdrivenarchitecture.message.Message;
 /**
  * 对应EventLoop
  * @param <E>
+ *
+ *     在接口中采用<E extends Message>形式方便接口实现类进行灵活替换
  */
 public interface DynamicRouter<E extends Message> {
 

@@ -2,6 +2,7 @@ package com.ddw.eventdrivenarchitecture;
 
 import com.ddw.eventdrivenarchitecture.channel.InputEventHandler;
 import com.ddw.eventdrivenarchitecture.channel.ResultEventHandler;
+import com.ddw.eventdrivenarchitecture.dispatcher.EventDispatcher;
 import com.ddw.eventdrivenarchitecture.message.InputEvent;
 import com.ddw.eventdrivenarchitecture.message.ResultEvent;
 
@@ -17,7 +18,7 @@ public class EventDispatcherExample {
      * DynamicRouter -- EventDispatcher -- EventLoop
      *
      * EDA与EventBus不同在于EventBus是消息推送给订阅者的形式，而EDA则是消息的流处理
-     * 
+     *
      * @param args
      */
     public static void main(String[] args) {
